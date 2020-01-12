@@ -26,7 +26,7 @@ new Vue({
       this.monsterAttack();
     },
     specialAttack: function() {
-      let damage = this.checkDamage(5, 20);
+      let damage = this.checkDamage(5, 15);
       this.monsterHealth = damage;
       if (this.checkWin()) {
         return;
